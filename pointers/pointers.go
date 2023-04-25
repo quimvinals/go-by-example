@@ -8,7 +8,7 @@ import (
 type Bitcoin int
 
 type Wallet struct {
-	balance Bitcoin // lowercase means private attribute hahaha yessssss
+	balance Bitcoin // lowercase means private attribute, still accessible inside package
 }
 
 type Stringer interface {
