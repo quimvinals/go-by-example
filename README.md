@@ -12,12 +12,12 @@ All Go by example exercises
 
 ### Go Fundamentals
 
-- [ ] [Hello World](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world)
-- [ ] [Integers](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/integers)
-- [ ] [Iteration](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/iteration)
-- [ ] [Arrays and slices](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/arrays-and-slices)
-- [ ] [Structs, methods & interfaces](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/structs-methods-and-interfaces)
-- [ ] [Pointers & Errors](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/pointers-and-errors)
+- [x] [Hello World](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world)
+- [x] [Integers](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/integers)
+- [x] [Iteration](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/iteration)
+- [x] [Arrays and slices](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/arrays-and-slices)
+- [x] [Structs, methods & interfaces](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/structs-methods-and-interfaces)
+- [x] [Pointers & Errors](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/pointers-and-errors)
 - [ ] [Maps](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/maps)
 - [ ] [Dependency Injection](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/dependency-injection)
 - [ ] [Mocking](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/mocking)
