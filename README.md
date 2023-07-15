@@ -5,6 +5,9 @@ All Go by example exercises
 - [Learn Go By Tests](https://quii.gitbook.io/learn-go-with-tests/)
 - [Go by Example](https://gobyexample.com)
 
+#### Free Courses
+- [TechWorld with Nana Go Course](https://www.youtube.com/watch?v=yyUHQIec83I)
+- [Golang Tutorial: Go Full Course](https://www.youtube.com/watch?v=YzLrWHZa-Kc)
 ## Learn Go By Tests
 
 ### Go Fundamentals
