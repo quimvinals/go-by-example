@@ -46,3 +46,10 @@ All Go by example exercises
 - [ ] [Command Line & package structure](https://quii.gitbook.io/learn-go-with-tests/build-an-application/command-line)
 - [ ] [Time](https://quii.gitbook.io/learn-go-with-tests/build-an-application/time)
 - [ ] [Web Sockets](https://quii.gitbook.io/learn-go-with-tests/build-an-application/websockets)
+
+## Golang Notes
+
+#### Testing
+
+- `cd ...` into the module you want to test
+- run `go test` to execute the test suites for that module

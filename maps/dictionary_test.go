@@ -13,7 +13,7 @@ func assertStrings(t testing.TB, got, want string) {
 func TestSearch(t *testing.T) {
 	dictionary := Dictionary{"test": "this is just a test"}
 	t.Run("with an existing key", func(t *testing.T) {
-		got := dictionary.Search("test")
+		got, _ := dictionary.Search("test")
 		expected := "this is just a test"
 	
 		assertStrings(t, got, expected)

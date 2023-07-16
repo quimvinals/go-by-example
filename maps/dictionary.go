@@ -1,7 +1,17 @@
 package maps
 
+import "errors"
+
 type Dictionary map[string] string
 
-func Search(d Dictionary, key string) string {
-	return d[key]
+var ErrorNotFound = errors.New("not found") 
+
+func (d Dictionary) Search(key string) (string, error) {
+	definition, ok := d[key]
+
+	if !ok {
+		return "", ErrorNotFound
+	}
+
+	return definition, nil
 }
