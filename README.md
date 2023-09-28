@@ -53,3 +53,16 @@ All Go by example exercises
 
 - `cd ...` into the module you want to test
 - run `go test` to execute the test suites for that module
+
+#### Maps
+
+An interesting property of maps is that you can modify them without passing as an address to it: `&myMap`
+
+This may make them feel like a "reference type", but they are not.
+A map value is a pointer to a runtime.hmap structure.
+
+So when you pass a map to a function/method, you are indeed copying it, but just the pointer part, not the underlying data structure that contains the data.
+A gotcha with maps is that they can be a nil value. A nil map behaves like an empty map when reading, but attempts to write to a nil map will cause a runtime panic.
+
+Therefore, you should never initialize an empty map variable:
+`var m map[string]string`
