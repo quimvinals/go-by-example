@@ -19,7 +19,7 @@ All Go by example exercises
 - [x] [Structs, methods & interfaces](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/structs-methods-and-interfaces)
 - [x] [Pointers & Errors](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/pointers-and-errors)
 - [x] [Maps](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/maps)
-- [ ] [Dependency Injection](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/dependency-injection)
+- [x] [Dependency Injection](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/dependency-injection)
 - [ ] [Mocking](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/mocking)
 - [ ] [Concurrency](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/concurrency)
 - [ ] [Select](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/select)
