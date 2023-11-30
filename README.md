@@ -73,6 +73,7 @@ Therefore, you should never initialize an empty map variable:
 
 - You can use `close(channel)` to signal some type of event
 - Always initialize a channel with `make(chan channel struct{})`
+- You can use `mutex` from `sync` library to lock a property so it can only be updated by 1 Go subroutine at a time
 
 #### Miscellaneous
 
