@@ -20,7 +20,7 @@ All Go by example exercises
 - [x] [Pointers & Errors](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/pointers-and-errors)
 - [x] [Maps](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/maps)
 - [x] [Dependency Injection](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/dependency-injection)
-- [ ] [Mocking](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/mocking)
+- [x] [Mocking](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/mocking)
 - [ ] [Concurrency](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/concurrency)
 - [ ] [Select](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/select)
 - [ ] [Reflection](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/reflection)
