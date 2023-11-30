@@ -3,16 +3,23 @@ package mocking
 import (
 	"fmt"
 	"io"
-	"os"
+	"time"
 )
 
-func Countdown(out io.Writer) {
-	for i := 3; i >= 1; i-- {
-		fmt.Fprintln(out, i)
-	}
-	fmt.Fprint(out, "Go!")
+type Sleeper interface {
+	Sleep()
 }
 
-func main() {
-	Countdown(os.Stdout)
+type DefaultSleeper struct{}
+
+func (d *DefaultSleeper) Sleep() {
+	time.Sleep(1 * time.Second)
+}
+
+func Countdown(out io.Writer, sleeper Sleeper) {
+	for i := 3; i >= 1; i-- {
+		fmt.Fprintln(out, i)
+		sleeper.Sleep()
+	}
+	fmt.Fprint(out, "Go!")
 }
