@@ -24,7 +24,7 @@ All Go by example exercises
 - [x] [Concurrency](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/concurrency)
 - [x] [Select](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/select)
 - [ ] [Reflection](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/reflection)
-- [ ] [Sync](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/sync)
+- [x] [Sync](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/sync)
 - [ ] [Context](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/context)
 - [ ] [Intro to property based tests](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/roman-numerals)
 - [ ] [Maths](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/math)
