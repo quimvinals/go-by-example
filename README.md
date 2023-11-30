@@ -22,7 +22,7 @@ All Go by example exercises
 - [x] [Dependency Injection](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/dependency-injection)
 - [x] [Mocking](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/mocking)
 - [x] [Concurrency](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/concurrency)
-- [ ] [Select](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/select)
+- [x] [Select](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/select)
 - [ ] [Reflection](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/reflection)
 - [ ] [Sync](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/sync)
 - [ ] [Context](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/context)
