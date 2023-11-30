@@ -53,6 +53,8 @@ All Go by example exercises
 
 - `cd ...` into the module you want to test
 - run `go test` to execute the test suites for that module
+- To execute a test and check for race conditions, execute `go test -race`
+- To execute a test to make a benchmark execute `go test -bench=.`
 
 #### Maps
 
@@ -66,3 +68,12 @@ A gotcha with maps is that they can be a nil value. A nil map behaves like an em
 
 Therefore, you should never initialize an empty map variable:
 `var m map[string]string`
+
+#### Concurrency
+
+- You can use `close(channel)` to signal some type of event
+- Always initialize a channel with `make(chan channel struct{})`
+
+#### Miscellaneous
+
+- The smallest unit to save in memory is an empty struct `struct{}`, even smaller than boolean
