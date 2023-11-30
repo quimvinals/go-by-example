@@ -77,3 +77,4 @@ Therefore, you should never initialize an empty map variable:
 #### Miscellaneous
 
 - The smallest unit to save in memory is an empty struct `struct{}`, even smaller than boolean
+- `interface{}` is the same thing as saying `any` in Typescript
