@@ -25,7 +25,7 @@ All Go by example exercises
 - [x] [Select](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/select)
 - [ ] [Reflection](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/reflection)
 - [x] [Sync](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/sync)
-- [ ] [Context](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/context)
+- [x] [Context](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/context)
 - [ ] [Intro to property based tests](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/roman-numerals)
 - [ ] [Maths](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/math)
 - [ ] [Reading Files](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/reading-files)
@@ -79,3 +79,4 @@ Therefore, you should never initialize an empty map variable:
 
 - The smallest unit to save in memory is an empty struct `struct{}`, even smaller than boolean
 - `interface{}` is the same thing as saying `any` in Typescript
+- Context is used to propagate through requests and subrutines so that we can cancel processes in subrutines to avoid sloppy code and memory leaks
