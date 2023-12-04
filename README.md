@@ -28,8 +28,8 @@ All Go by example exercises
 - [x] [Context](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/context)
 - [x] [Intro to property based tests](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/roman-numerals)
 - [ ] [Maths](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/math)
-- [ ] [Reading Files](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/reading-files)
-- [ ] [Templating](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/html-templates)
+- [x] [Reading Files](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/reading-files)
+- [x] [Templating](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/html-templates)
 - [ ] [Generics](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/generics)
 - [ ] [Arrays & Slices with generics](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/revisiting-arrays-and-slices-with-generics)
 
@@ -55,6 +55,9 @@ All Go by example exercises
 - run `go test` to execute the test suites for that module
 - To execute a test and check for race conditions, execute `go test -race`
 - To execute a test to make a benchmark execute `go test -bench=.`
+- Approval tests -> https://github.com/approvals/go-approval-tests
+- ApprovalTests allows for easy testing of larger objects, strings and anything else that can be saved to a file (images, sounds, csv, etc...)
+- Approval tests work as snapshots. You keep one large text file and compare it with an output
 
 #### Maps
 
