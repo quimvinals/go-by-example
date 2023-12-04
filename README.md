@@ -30,7 +30,7 @@ All Go by example exercises
 - [ ] [Maths](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/math)
 - [x] [Reading Files](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/reading-files)
 - [x] [Templating](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/html-templates)
-- [ ] [Generics](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/generics)
+- [x] [Generics](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/generics)
 - [ ] [Arrays & Slices with generics](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/revisiting-arrays-and-slices-with-generics)
 
 ### Testing Fundamentals
