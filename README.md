@@ -26,7 +26,7 @@ All Go by example exercises
 - [ ] [Reflection](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/reflection)
 - [x] [Sync](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/sync)
 - [x] [Context](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/context)
-- [ ] [Intro to property based tests](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/roman-numerals)
+- [x] [Intro to property based tests](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/roman-numerals)
 - [ ] [Maths](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/math)
 - [ ] [Reading Files](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/reading-files)
 - [ ] [Templating](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/html-templates)
